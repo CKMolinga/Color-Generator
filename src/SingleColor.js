@@ -8,7 +8,7 @@ const SingleColor = ({ rgb, weight, index, hexColor }) => {
   return (
     <article className={`color`} style={{ backgroundColor: `rgb(${bcg})` }}>
       <p className="percent-value">{weight}%</p>
-      <p className="color-value">{hex}</p>
+      <p className="color-value">{hexColor}</p>
     </article>
   );
 };
